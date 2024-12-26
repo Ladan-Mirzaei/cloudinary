@@ -1,0 +1,73 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --moss-green: #4a6a50;
+  --pine-forest: #3b222f;
+}
+.root {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.roothome {
+  padding: 0;
+}
+/* select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 1em;
+  color: #333;
+  box-sizing: border-box;
+  appearance: none; 
+  cursor: pointer;
+  position: relative; 
+}
+select option {
+  background-color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 1em;
+  color: #333;
+} */
+
+a {
+  text-decoration: inherit;
+  color: rgb(55, 49, 49);
+}
+/* a:hover {
+  color: #535bf2;
+}  */
+input,
+select,
+textarea,
+input[type="radio"] {
+  background-color: white;
+  color: rgb(100, 92, 92);
+}
+body {
+  display: flex;
+  place-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
+  color: black;
+  /* overflow-x: hidden; */
+  /* Verhindert horizontales Scrollen */
+  margin: 0;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
